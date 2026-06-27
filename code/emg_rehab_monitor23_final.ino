@@ -7,15 +7,15 @@
 #include <time.h>
 
 // ─── Blynk / WiFi ─────────────────────────────────────────────────────────────
-#define BLYNK_TEMPLATE_ID   "TMPL3_wPuSKUD"
+#define BLYNK_TEMPLATE_ID   "your template id"
 #define BLYNK_TEMPLATE_NAME "EMG Rehab Monitor"
-#define BLYNK_AUTH_TOKEN    "Wih0mpNX4vlHl0xxUj2hHPGbToAlU7T1"
+#define BLYNK_AUTH_TOKEN    "your token"
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
 // WiFi credentials
-const char* WIFI_SSID = "Galaxy F220E9C";
-const char* WIFI_PASS = "kromasor";
+const char* WIFI_SSID = "your phone hotspot name";
+const char* WIFI_PASS = "hotspot passwrod";
 
 // ─── Blynk virtual pin map ────────────────────────────────────────────────────
 //  V0  – Avg Activation    (%)
